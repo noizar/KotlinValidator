@@ -1,6 +1,22 @@
 # KotlinValidator
 Kotlin Validator is a rule-based validation library for Swift and Java
+# Screenshots
+![Main screen](/screenshots/device-2017-11-02-214730.png) 
 ## Usage 
+Add a dependency to your `build.gradle`:
+```
+allprojects {
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
+    }
+}
+```
+```
+dependencies {
+   compile 'com.github.noizar:KotlinValidator:v0.1.0'
+}
+```
 ```kotlin
 class MainActivity : AppCompatActivity(),ValidationDelegate {
 
