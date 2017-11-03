@@ -14,7 +14,7 @@ allprojects {
 ```
 ```
 dependencies {
-   compile 'com.github.noizar:KotlinValidator:v0.1.0'
+   compile 'com.github.noizar:KotlinValidator:v0.1.1'
 }
 ```
 ```kotlin
